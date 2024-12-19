@@ -1,0 +1,56 @@
+/* Import global styles from main.css */
+@import url('main.css');
+
+/* Specific styles for the About Me page */
+
+/* Limit the image size */
+main img {
+    max-width: 200px; /* Adjust image size */
+    display: block;
+    margin: 0 auto 20px; /* Center image and add space below */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+/* Add spacing for sections */
+main section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #500000; /* Slightly darker background for sections */
+    border-left: 5px solid #FFDDDD; /* Light red border for separation */
+    border-radius: 5px;
+}
+
+/* Style section headings */
+section h2 {
+    color: #FFDDDD; /* Light red */
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Paragraph styling */
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+/* Skills list */
+section ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    color: #FFDDDD; /* Light red bullets */
+}
+
+section li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+/* Footer margin for spacing */
+footer {
+    margin-top: 20px;
+}

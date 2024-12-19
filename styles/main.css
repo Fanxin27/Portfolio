@@ -1,0 +1,135 @@
+/* reset css: all padding and margin reset to 0 */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #610000; /* Red background */
+    color: #FFFFFF; /* White text */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #610000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #410000; 
+    text-align: center; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: inline-block; 
+}
+
+nav li {
+    display: inline; 
+    margin: 0 20px; 
+}
+
+nav a {
+    color: #FFFFFF; 
+    text-decoration: none;
+    font-size: 1.2em; 
+    text-transform: lowercase; 
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #FFDDDD; 
+    text-decoration: underline; /
+}
+
+main {
+    background-color: #610000; 
+    color: #FFFFFF; 
+    padding: 20px;
+    text-align: left; 
+}
+
+aside {
+    background-color: #500000; 
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+footer {
+    background-color: #410000; 
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* make images responsive */
+img{
+    max-width: 100%;
+}
+
+/* Tablet (800px or less) */
+@media screen and (max-width: 800px) {
+    nav ul {
+        display: block; 
+        text-align: center;
+    }
+
+    nav li {
+        display: block; 
+        margin: 10px 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+/* Mobile (600px or less) */
+@media screen and (max-width: 600px) {
+    header {
+        height: 50px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+    /* #sidebar1{
+        display: none;
+    } */
+
+
+
+
+}
